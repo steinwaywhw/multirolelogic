@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Multirole Logic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-35135907-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Multirole Logic</h1>
+      <h2 class="project-tagline">Official Website for Multirole Logic</h2>
+      <!--<a href="https://github.com/steinwaywhw/multirolelogic" class="btn">View on GitHub</a>-->
+      <!--<a href="https://github.com/steinwaywhw/multirolelogic/zipball/master" class="btn">Download .zip</a>-->
+      <!--<a href="https://github.com/steinwaywhw/multirolelogic/tarball/master" class="btn">Download .tar.gz</a>-->
+    </section>
+
+    <section class="main-content">
+      <h1 id="multirole-logic">Multirole Logic</h1>
+      <p>Author: <a href="https://github.com/githwxi">Hongwei Xi</a> and <a href="https://github.com/steinwaywhw">Hanwen Wu</a></p>
+      <p>© 2016-2017 Hongwei Xi and Hanwen Wu, All Rights Reserved.</p>
+      <p>We identify multirole logic as a new form of logic in which conjunction/disjunction is interpreted as an ultrafilter on the power set of some underlying set (of roles) and the notion of negation is generalized to endomorphisms on this underlying set. We formalize both multirole logic (MRL) and linear multirole logic (LMRL) as natural generalizations of classical logic (CL) and classical linear logic (CLL), respectively, and also present a filter-based interpretation for intuitionism in multirole logic. Among various meta-properties established for MRL and LMRL, we obtain one named <strong>multiparty cut-elimination</strong> stating that every cut involving one or more sequents (as a generalization of a binary cut involving exactly two sequents) can be eliminated, thus extending the celebrated result of cut-elimination by Gentzen.</p>
+      <h1 id="papers">Papers</h1>
+      <ul>
+      <li>Hongwei Xi, Hanwen Wu. <a href="https://arxiv.org/abs/1703.06391"><strong>Multirole Logic (Extended Abstract)</strong></a> (2017)</li>
+      <li>Hongwei Xi, Hanwen Wu. <strong>Propositions in Linear Multirole Logic as Multiparty Session Types</strong> (2016 <a href="https://arxiv.org/abs/1611.08888">v1</a>, 2017 <a href="./lics2017.pdf">v2</a>)</li>
+      <li>Hongwei Xi, Hanwen Wu. <a href="http://arxiv.org/abs/1604.03020"><strong>Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions</strong></a> (2016)</li>
+      <li>Hongwei Xi, Zhiqiang Ren, Hanwen Wu, William Blair. <a href="http://arxiv.org/abs/1603.03727"><strong>Session Types in a Linearly Typed Multi-Threaded Lambda-Calculus</strong></a> (2016)</li>
+      </ul>
+      <h1 id="talks">Talks</h1>
+      <p>The following talk was given by Hanwen Wu at <a href="http://nepls.org/Events/29/">NEPLS 2016</a> hosted by UMass Amherst. (May 31, 2016)</p>
+      <script async class="speakerdeck-embed" data-id="2a3f1d2fb2ed4ea48d6a27d9959ef578" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+      <p>The following talk was given by Hanwen Wu at <a href="http://www.nepls.org/Events/28/">NEPLS 2015</a> hosted by Tufts University. (Nov 10, 2015)</p>
+      <script async class="speakerdeck-embed" data-id="bdd16599cfaa4245976e52600a82de83" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+      <p>It’s code can be found <a href="https://github.com/steinwaywhw/nepls-15-demo">here</a> which also includes a simple encoding of ConcurrentML.</p>
+      <h1 id="full-proofs">Full Proofs</h1>
+      <p>These proofs are formulated and checked in an older version of ATS and z3.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> We recommend that you verify one proof at a time and comment out others to make it possible to verify within resource limit.</p>
+      <ul>
+      <li>Conjunctive Propositional Classical, <a href="https://glot.io/snippets/eel70kauxc" class="uri">https://glot.io/snippets/eel70kauxc</a></li>
+      <li>Disjuctive Propositional Classical, <a href="https://glot.io/snippets/eel78s1dnm" class="uri">https://glot.io/snippets/eel78s1dnm</a></li>
+      <li>Propositional Dual Classical, <a href="https://glot.io/snippets/eel4cuqav8" class="uri">https://glot.io/snippets/eel4cuqav8</a></li>
+      <li>Propositional Classical Linear, <a href="https://glot.io/snippets/eel75yn540" class="uri">https://glot.io/snippets/eel75yn540</a></li>
+      </ul>
+      <h1 id="implementations">Implementations</h1>
+      <p>Our work has enabled several implementations. The session API formulation is done in <a href="www.ats-lang.org">Applied Type System</a>. After type checking, it will be compiled into a target language. Currently we experimented several such targets, including C, JavaScript, and Elixir/Erlang.</p>
+      <ul>
+      <li><p><a href="https://github.com/steinwaywhw/ats-session-playground">Elixir/Erlang</a>. This repo contains several async message-passing implementation on top of the ErlangVM, covering binary sessions, naive multiparty sessions, and multiparty sessions based on LMRL in a different branch. We are working at re-organising the code base.</p></li>
+      <li><p>C. <a href="https://github.com/githwxi/ATS-Postiats/tree/master/npm-utils/contrib/libats-/hwxi/mysession-2">Repo 1</a> and <a href="https://github.com/githwxi/ATS-Postiats/tree/master/npm-utils/contrib/libats-/hwxi/mysession-g">repo 2</a> are two implementations of binary session types and using binary sessino types to construct g-sessions (a preliminary version of multiparty sessions) described in Hongwei Xi, Hanwen Wu. <a href="http://arxiv.org/abs/1604.03020"><strong>Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions</strong></a> (2016)</p></li>
+      <li><p><a href="https://github.com/githwxi/ATS-Postiats/tree/master/contrib/CATS-atscc2erl/TEST/Sessiontype">Erlang</a>.</p></li>
+      </ul>
+      <h1 id="other-resources">Other Resources</h1>
+      <ul>
+      <li>Two tutorials from the series <a href="http://ats-lang.sourceforge.net/EXAMPLE/EFFECTIVATS/">Effective ATS</a>.</li>
+      </ul>
+      <section class="footnotes">
+      <hr />
+      <ol>
+      <li id="fn1"><p>It may broke if the version is seriously outdated.<a href="#fnref1">↩</a></p></li>
+      </ol>
+      </section>
+  
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/steinwaywhw/multirolelogic">Multirole Logic</a> is maintained by <a href="https://github.com/steinwaywhw">steinwaywhw</a>.</span>
+
+        <span class="site-footer-credits">Last updated: </span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
