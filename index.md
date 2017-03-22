@@ -54,5 +54,7 @@ Our work has enabled several implementations. The session API formulation is don
 # Other Resources
 
 * Two tutorials from the series [Effective ATS](http://ats-lang.sourceforge.net/EXAMPLE/EFFECTIVATS/).
+* ATS Official Website, <www.ats-lang.org>
+* Active Google Groups for discussions, [ats-lang-users](https://groups.google.com/forum/#!forum/ats-lang-users), [ats-lang-club](https://groups.google.com/forum/#!forum/ats-lang-club) (invite only)
 
 
