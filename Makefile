@@ -13,6 +13,7 @@ html: *.md
 		-t html5 \
 		-o docs/index.html \
 		-s \
+		--metadata=date:"$(shell date)" \
 		--smart \
 		--template=template.html \
 		--highlight-style=pygments \

@@ -3,6 +3,7 @@ title: Multirole Logic
 project-name: Multirole Logic 
 project-tagline: Official Website for Multirole Logic 
 google-analytics: UA-35135907-4
+date: 
 ---
 
 # Multirole Logic 
@@ -45,7 +46,7 @@ These proofs are formulated and checked in an older version of ATS and z3.^[It m
 
 Our work has enabled several implementations. The session API formulation is done in [Applied Type System](www.ats-lang.org). After type checking, it will be compiled into a target language. Currently we experimented several such targets, including C, JavaScript, and Elixir/Erlang.
 
-* [ATS/Elixir, ATS/Erlang](https://github.com/steinwaywhw/ats-session-playground). This repo contains several async message-passing implementation on top of the ErlangVM, covering binary sessions, naive multiparty sessions, and multiparty sessions based on LMRL in a different branch. We are working at re-organising the code base.
+* [ATS/Elixir, ATS/Erlang](https://github.com/steinwaywhw/ats-session-playground). This repo contains several async message-passing implementation on top of the ErlangVM, covering binary sessions, naive multiparty sessions, and multiparty sessions based on LMRL in a different branch. We are currently working on re-organising the code base.
 
 * ATS/C. [Repo 1](https://github.com/githwxi/ATS-Postiats/tree/master/npm-utils/contrib/libats-/hwxi/mysession-2) and [repo 2](https://github.com/githwxi/ATS-Postiats/tree/master/npm-utils/contrib/libats-/hwxi/mysession-g) are two implementations of binary session types and multiparty session types, respectively. They are described in Hongwei Xi, Hanwen Wu. [**Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions**](http://arxiv.org/abs/1604.03020) (2016). You can also find them on [npm, binary](https://www.npmjs.com/package/atscntrb-hx-mysession-2) and [npm, multiparty](https://www.npmjs.com/package/atscntrb-hx-mysession-g).
 
