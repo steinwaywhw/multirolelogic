@@ -2,7 +2,7 @@
 
 
 all: html
-	cp lics2017.pdf docs/
+	cp lics2017.pdf concur2017.pdf docs/
 
 docker: 
 	docker run --rm -ti --volume=$$(pwd):/tmp/src steinwaywhw/pandoc

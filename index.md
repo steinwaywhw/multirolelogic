@@ -16,6 +16,7 @@ We identify multirole logic as a new form of logic in which conjunction/disjunct
 
 # Papers 
 
+* Hanwen Wu, Hongwei Xi. [**Dependent Session Types**](./concur2017.pdf)
 * Hongwei Xi, Hanwen Wu. [**Multirole Logic (Extended Abstract)**](https://arxiv.org/abs/1703.06391) (2017)
 * Hongwei Xi, Hanwen Wu. **Propositions in Linear Multirole Logic as Multiparty Session Types** (2016 [v1](https://arxiv.org/abs/1611.08888), 2017 [v2](./lics2017.pdf))
 * Hongwei Xi, Hanwen Wu. [**Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions**](http://arxiv.org/abs/1604.03020) (2016)
@@ -46,7 +47,7 @@ These proofs are formulated and checked in an older version of ATS and z3.^[It m
 
 Our work has enabled several implementations. The session API formulation is done in [Applied Type System](www.ats-lang.org). After type checking, it will be compiled into a target language. Currently we experimented several such targets, including C, JavaScript, and Elixir/Erlang.
 
-* [ATS/Elixir, ATS/Erlang](https://github.com/steinwaywhw/ats-session-playground). This repo contains several async message-passing implementation on top of the ErlangVM, covering binary sessions, naive multiparty sessions, and multiparty sessions based on LMRL in a different branch. We are currently working on re-organising the code base.
+* [ATS/Elixir, ATS/Erlang](https://github.com/steinwaywhw/ats-session-playground). This repo contains several async message-passing implementation on top of the ErlangVM, covering binary sessions, naive multiparty sessions, and multiparty sessions based on LMRL in a different branch. We are currently working on re-organising the code base. The `dependent` folder contains the latest (as of April 2017) implementation of dependent session types.
 
 * ATS/C. [Repo 1](https://github.com/githwxi/ATS-Postiats/tree/master/npm-utils/contrib/libats-/hwxi/mysession-2) and [repo 2](https://github.com/githwxi/ATS-Postiats/tree/master/npm-utils/contrib/libats-/hwxi/mysession-g) are two implementations of binary session types and multiparty session types, respectively. They are described in Hongwei Xi, Hanwen Wu. [**Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions**](http://arxiv.org/abs/1604.03020) (2016). You can also find them on [npm, binary](https://www.npmjs.com/package/atscntrb-hx-mysession-2) and [npm, multiparty](https://www.npmjs.com/package/atscntrb-hx-mysession-g).
 
