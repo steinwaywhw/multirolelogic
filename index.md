@@ -16,7 +16,7 @@ We identify multirole logic as a new form of logic in which conjunction/disjunct
 
 # Papers 
 
-* Hanwen Wu, Hongwei Xi. [**Dependent Session Types**](./concur2017.pdf) (2017)
+* Hanwen Wu, Hongwei Xi. [**Dependent Session Types**](https://arxiv.org/abs/1704.07004) (2017)
 * Hongwei Xi, Hanwen Wu. [**Multirole Logic (Extended Abstract)**](https://arxiv.org/abs/1703.06391) (2017)
 * Hongwei Xi, Hanwen Wu. **Propositions in Linear Multirole Logic as Multiparty Session Types** (2016 [v1](https://arxiv.org/abs/1611.08888), 2017 [v2](./lics2017.pdf))
 * Hongwei Xi, Hanwen Wu. [**Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions**](http://arxiv.org/abs/1604.03020) (2016)
