@@ -16,6 +16,8 @@ We identify multirole logic as a new form of logic in which conjunction/disjunct
 
 # Papers 
 
+* Hongwei Xi, Hanwen Wu. [**Multirole Logic and Multiparty Channels**](./radical2017.pdf), Recent Advances in Concurrency and Logic, 2017.
+* Hongwei Xi, Hanwen Wu. [**Multirole Logic**](./lc2017.pdf), Logic Colloquium, 2017.
 * Hanwen Wu, Hongwei Xi. [**Dependent Session Types**](https://arxiv.org/abs/1704.07004) (2017)
 * Hongwei Xi, Hanwen Wu. [**Multirole Logic (Extended Abstract)**](https://arxiv.org/abs/1703.06391) (2017)
 * Hongwei Xi, Hanwen Wu. **Propositions in Linear Multirole Logic as Multiparty Session Types** (2016 [v1](https://arxiv.org/abs/1611.08888), 2017 [v2](./lics2017.pdf))
@@ -23,6 +25,12 @@ We identify multirole logic as a new form of logic in which conjunction/disjunct
 * Hongwei Xi, Zhiqiang Ren, Hanwen Wu, William Blair. [**Session Types in a Linearly Typed Multi-Threaded Lambda-Calculus**](http://arxiv.org/abs/1603.03727) (2016)
 
 # Talks
+
+The following talk was given by Hongwei Xi and Hanwen Wu at [LC 2017](https://www.math-stockholm.se/en/konferenser-och-akti/logic-in-stockholm-2). (Aug 18, 2017)
+
+<script async class="speakerdeck-embed" data-id="bf6679a079ea4e36b20f473990eb488a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+A version with speaker's notes can be found here on [Scribd](https://www.scribd.com/book/356557548/Multirole-Logic-Logic-Colloquium-2017-with-Speaker-s-Notes).
 
 The following talk was given by Hanwen Wu at [NEPLS 2016](http://nepls.org/Events/29/) hosted by UMass Amherst. (May 31, 2016)
 
