@@ -9,12 +9,11 @@ docker:
 
 html: *.md 
 	pandoc \
-		-f markdown+raw_html \
+		-f markdown+raw_html+smart \
 		-t html5 \
 		-o docs/index.html \
 		-s \
 		--metadata=date:"$(shell date)" \
-		--smart \
 		--template=template.html \
 		--highlight-style=pygments \
 		index.md
